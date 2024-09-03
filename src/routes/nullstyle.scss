@@ -1,0 +1,76 @@
+:global(*) {
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+
+  :global(*, *:before, *:after) {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  :global(:focus, :active) {
+    outline: none;
+  }
+
+  :global(a:focus, a:active) {
+    outline: none;
+  }
+
+  :global(nav, footer, header, aside) {
+    display: block;
+  }
+
+  :global(html) {
+    scroll-behavior: smooth;
+    background-color: #000;
+  }
+  :global(html, body) {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  :global(input, button, textarea) {
+    font-family: inherit;
+  }
+
+  :global(input::-ms-clear) {
+    display: none;
+  }
+
+  :global(button) {
+    cursor: pointer;
+  }
+
+  :global(button::-moz-focus-inner) {
+    padding: 0;
+    border: 0;
+  }
+
+  :global(a, a:visited) {
+    text-decoration: none;
+  }
+
+  :global(a:hover) {
+    text-decoration: none;
+  }
+
+  :global(ul li) {
+    list-style: none;
+  }
+
+  :global(img) {
+    vertical-align: top;
+  }
+
+  :global(h1, h2, h3, h4, h5, h6) {
+    font-size: inherit;
+    font-weight: inherit;
+  }
